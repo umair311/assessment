@@ -1,0 +1,180 @@
+.button-solid {
+  --background: #ffffff !important;
+  --color: var(--primary-color) !important;
+  font-size: 12px;
+  font-weight: 600;
+  min-width: 160px;
+  margin-top: 62px;
+  --box-shadow: 0 0px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, -2.86), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.main-content-nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 60px;
+  gap: 20px;
+
+  .icon-coloum {
+    width: 25%;
+
+    h3 {
+      color: var(--secondary-color);
+    }
+
+    p {
+      color: var(--text-color);
+    }
+  }
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+
+  .coloum {
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .coloum-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    background: var(--background-color);
+
+    h2 {
+      color: var(--heading-color);
+    }
+
+    p {
+      color: var(--text-color);
+    }
+  }
+}
+
+.media-content {
+  display: flex;
+  flex-wrap: wrap;
+
+  .coloum {
+    width: 50%;
+    background-image: url('../assets/images/sn1-bg.png');
+    background-size: 67% 67%;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 263px;
+
+    }
+  }
+
+  .bg {
+    background-position: bottom right;
+  }
+
+  .justify-center {
+    justify-content: center
+  }
+
+  .coloum-content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+
+    div {
+      width: 263px;
+    }
+
+    h2 {
+      color: var(--primary-color);
+    }
+
+    p {
+      color: var(--text-color);
+    }
+  }
+}
+
+.intro {
+  margin-top: 100px;
+
+  p {
+    font-size: 14px;
+    margin-top: 3px;
+  }
+}
+
+.user-content {
+  background: var(--background-color);
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  ;
+
+  .coloum {
+    width: 50%;
+    background-image: url('../assets/images/Snowflake.png');
+    background-size: 100% 89%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    div {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      padding-right: 8%;
+    }
+
+    img {
+      width: 50%;
+    }
+  }
+
+  .coloum-content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+
+    div {
+      width: 300px;
+    }
+
+    h2 {
+      color: var(--color-red);
+    }
+
+    p {
+      color: var(--text-color);
+    }
+  }
+}
+
+.mt-15 {
+  margin-top: 15px !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 29px;
+}
